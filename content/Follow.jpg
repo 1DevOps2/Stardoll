@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Find your Facebook ID - a 5-second easy tool for locating your Facebook numeric personal ID</title>
+  <meta name="description" content="If you need to know your Facebook numeric peronal ID, just plug your Profile URL into this simple tool." />
+  <link rel="stylesheet" href="reset.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  <meta property="fb:admins" content="1146295886" />
+ </head>
+ <body>
+    
+  <form action="" method="post">
+ 
+ <label for="fb_profile_url" class="text-input-label fb_profile_url-text-input-label">
+  Enter your personal Facebook profile URL:
+ </label>
+ 
+ <input type="text" name="fb_profile_url" value="" class="nr-text" size="45" placeholder="http://www.facebook.com/YourProfileName" />
+
+ <input type="hidden" name="unsanitized" class="nr-hidden hidden-input-for-unsanitized" />
+ <p>
+  <input type="submit" value="Lookup numeric ID..." class="button-primary">
+ </p>
+ 
+ <h1>Easily find your Facebook numeric personal ID for fb:admins social plugins and more!</h1>
+ 
+ <p id="description">
+  For integrations of certain Facebook social plugins, like the "Like" button and "Like box", and others, Facebook 
+  requires that you know your Facebook numeric user ID.  Unfortunately, they make this very difficult to find, especially 
+  if you have a so-called "vanity" personalized profile URL. If you can't find your Facebook ID, or don't know what it is 
+  and need it, just enter your full Facebook profile URL in the above form, and we can scrape the ID from the code of your 
+  personal profile page.  
+ </p>
+ 
+</form>  
+  
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3361652-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ </body>
+</html>

@@ -1,0 +1,115 @@
+#lean_overlay {
+  position: fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: #000;
+  display: none;
+}
+
+.lean-modal {
+  display: none;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  width: 600px;
+  color: #666;
+}
+
+.lean-modal h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #111;
+  text-shadow: none;
+}
+
+.lean-modal li,
+.lean-modal p{
+  margin-bottom: 10px;
+}
+
+.lean-modal strong {
+  font-weight: bold;
+}
+
+/*clicked window*/
+
+.mg-clicked-window-container {
+  display: none;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 99999;
+}
+
+.mg-clicked-window-container .mg-clicked-window {
+  display: block;
+  width: 360px;
+  height: 480px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -170px;
+  margin-top: -230px;
+}
+
+.mg-clicked-window-show .mg-clicked-window-container {
+  display: block;
+}
+
+
+.mg-clicked-window-container {
+  position: fixed;
+}
+
+.mg-clicked-window-container {
+  background: rgba(0,0,0,0.3);
+}
+
+/* offers styling */
+
+#offers-dialog.lean-modal {
+  border: 5px solid rgba(0,0,0,0.6);
+  box-sizing: border-box;
+}
+
+#offers-dialog.lean-modal #offers {
+  text-align: center;
+}
+
+.qtip .offer-preview-image {
+  background-size: 155px auto;
+  background-repeat: no-repeat;
+  width: 135px;
+  height: 80px;
+}
+
+.lean-modal #offers-not-found {
+  text-align: center;
+}
+
+.lean-modal #offers-not-found i.fa {
+  font-size: 48px;
+}
+
+.alternative-select {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#offers-dialog div[data-unlock-method-content="bitcoin"] iframe {
+  width: 560px;
+  border: none;
+  height: 300px;
+}
+
+#offers-dialog div[data-unlock-method-content="bitcoin"] {
+  position: relative;
+  left: -10px;
+}
